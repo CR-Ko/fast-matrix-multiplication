@@ -4,9 +4,9 @@
 #include "mxm.h"
 #include "util.h"
 
-#define N 1000
-#define M 1000
-#define P 1000
+#define N 2000
+#define M 2000
+#define P 2000
 #define PRINT_MATS 0
 #define PRINT_RESULT 0
 
