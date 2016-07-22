@@ -32,9 +32,9 @@ void main()
 		printf("B\n"); print_mat(b, n, p);
 	}
 
-    gettimeofday(&str, NULL);
+    	gettimeofday(&str, NULL);
 	mxm_product(c, a, b, m, n, p);
-    gettimeofday(&end, NULL);
+    	gettimeofday(&end, NULL);
     
 	time = 1000 * (end.tv_sec - str.tv_sec) + (end.tv_usec - str.tv_usec) / 1000;
 	printf("Diagonal sum: %.2lf\n", sum_diag(c, m, p));
