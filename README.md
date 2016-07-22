@@ -1,4 +1,4 @@
-# matrix-multiplication-optimization
+# fast-matrix-multiplication
 
 ## Description
 Optimizations for the multiplication C = A * B of dense matrices.
