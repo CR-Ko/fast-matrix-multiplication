@@ -12,11 +12,11 @@ gcc main.c mxm.c util.c -O3
 - Loop reordering
 - Copying optimization
 - Loop unrolling
-- 
+
 ## Speedup
 - Machine: Intel Core i5 2500K
 - Data: 2000x2000 matrices
-- 7 agains the naive -O3 version and 26 against the -O3 version.
+- 7 against the naive -O3 version and 26 against the -O3 version
 
 ## TODO
 - Select an appropiate block size automatically
